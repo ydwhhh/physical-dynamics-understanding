@@ -1,0 +1,11 @@
+# PyTorch is intentionally NOT listed here. On the GPU server, reuse the
+# administrator-provided CUDA build instead of letting pip replace it.
+# Qwen2.5-VL support requires a recent Transformers release.
+transformers>=4.49,<5
+accelerate>=0.27,<2
+safetensors>=0.4,<1
+opencv-python-headless>=4.8,<5
+Pillow>=10,<13
+pandas>=2,<3
+scikit-learn>=1.3,<2
+numpy>=1.24,<2

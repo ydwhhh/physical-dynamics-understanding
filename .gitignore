@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+work/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local configuration and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Data, model caches, generated frames, logs, and experiment output
+data/
+datasets/
+models/
+checkpoints/
+frames/
+logs/
+outputs/
+results/
+wandb/
+*.log
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm

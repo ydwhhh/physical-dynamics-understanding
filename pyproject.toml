@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iris-phase1"
+version = "0.1.0"
+description = "Minimal zero-shot physical dynamics classification with Qwen2.5-VL"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["iris_phase1*"]
